@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Getting the Details of Voter's ID</title>
+</head>
+<body>
+    <form action="VoterDetails.php" method="post" autocomplete="off">
+        <h1 style="text-align: center">Details of Voter's ID</h1>
+        <br>
+        <table>
+            <tr>
+                <td>Last Name: <label>
+                </label></td>
+                <td><label>
+                    <input type="text" name="lastName" size="30" required>
+                </label></td>
+            </tr>
+            <tr>
+                <td>First Name: <label>
+                </label></td>
+                <td><label>
+                    <input type="text" name="firstName" size="30" required>
+                </label></td>
+            </tr>
+            <tr>
+                <td>Town: <label>
+                </label></td>
+                <td><label>
+                    <input type="text" name="town" size="30" required>
+                </label></td>
+            </tr>
+            <tr>
+                <td>Age: <label>
+                </label></td>
+                <td><label>
+                    <input type="number" name="age" step="1" required>
+                </label></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
